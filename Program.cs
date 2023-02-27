@@ -39,3 +39,8 @@ int arraySize = arrayCount(firstArray);
 printArray(firstArray);
 Console.Write(" -> ");
 printArray(newArray(firstArray, arraySize));
+Console.WriteLine();
+String [] thirdArray = new String[] {"hello", "2", "world", ":-)"};
+printArray(thirdArray);
+Console.Write(" -> ");
+printArray(newArray(thirdArray, arraySize));
